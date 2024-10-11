@@ -1,0 +1,176 @@
+h1 {
+    text-align: center;
+    color: #4ac1f7;
+}
+.mylogo{
+ height: 300px;
+ width: auto;
+
+ /*Home Styling*/
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #4ac1f7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+/*About Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4ac1f7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #4ac1f7, #fff);
+    padding: 100px;
+    text-align: center;
+}
+
+.team {
+    padding: 50px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.mission {
+    padding: 50px;
+}
+
+footer {
+    background-color: #4ac1f7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+/*Contact Styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.info {
+    width: 50%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column; /* elements vertically */
+}
+
+.body {
+    background-color: #fff; /* body section */
+    padding: 2%;
+}
+
+ul li {
+    margin: 4% 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    padding: 1%;
+}
+
+.list img {
+    width: 30px; /*  icon size */
+    height: 30px; /* icon size */
+    margin-right: 8px; /* Space icon and text */
+}
+
+.text {
+    color: #0F2C59; /* Text color for contact information */
+}
+.footer {
+    background-color: #4ac1f7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    overflow: hidden; /* Ensure the navbar content fits well */
+    padding: 10px; /* Add some padding */
+    text-align: center; /* Center the links */
+}
+
+.navbar a {
+    color: white; /* Set link text color */
+    text-decoration: none; /* Remove underlines from links */
+    padding: 14px 20px; /* Add some padding around the links */
+    display: inline-block; /* Display links inline */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+
+/* Optional: Make the navbar responsive */
+@media screen and (max-width: 600px) {
+    .navbar a {
+        display: block; /* Stack links vertically on small screens */
+        text-align: left;
+}

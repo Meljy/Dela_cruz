@@ -1,0 +1,21 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+ <main class="container">
+        <h1>Welcome to my home page!</h1>
+     <img class="mylogo" src="{% static 'images/MJD.ico' %}">
+     <img class="mylogo" src="{% static 'images/favicon.ico' %}">
+        <p>This is a home page.</p>
+        <hr>
+        <h2>Features</h2>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 My Home</p>
+    </footer>
+
+{% endblock content %}
