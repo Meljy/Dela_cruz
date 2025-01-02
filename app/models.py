@@ -1,3 +1,12 @@
 from django.db import models
+from django.urls import reverse
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    author = models.ForeignKey("auth.user", on_delete=models.CASCADE)
+    body = models.TextField()
 
-# Create your models here.
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse("patient_detail", kwargs={"pk": self.pk})
